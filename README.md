@@ -51,7 +51,7 @@ Este repositório serve como um exemplo de como criar uma API de autenticação 
 1. Clone o repositório:
 
    bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/victorhugoscf/CRUD-Project.git
    
 
 2. Acesse o diretório do Laravel:
