@@ -1,5 +1,5 @@
 # CRUD-Project
-=======
+
 # CRUD de Usuários com Recuperação de Senha - Laravel & React
 
 ## Descrição
