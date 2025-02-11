@@ -8,7 +8,10 @@ Este é um projeto CRUD desenvolvido com **PHP 8.2.12**, **Laravel 10**, e **MyS
 
 Este repositório serve como um exemplo de como criar uma API de autenticação e gerenciamento de usuários, além de implementar funcionalidades de recuperação de senha seguras com Laravel.
 
-![Gif do projeto](./projeto.gif)
+<p align="center">
+  <img src="./projeto.gif" alt="Gif do projeto">
+</p>
+
 
 
 ## Funcionalidades
@@ -131,19 +134,19 @@ Este repositório serve como um exemplo de como criar uma API de autenticação 
    npm start
    
 
-#### Enviar Link de Recuperação
+## Enviar Link de Recuperação
 
 Para enviar o link de recuperação de senha, basta que o usuário insira seu e-mail na interface e o sistema enviará um link para redefinir a senha. O link é gerado automaticamente e enviado via **Mailtrap** durante o desenvolvimento.
 
-### Autenticação
+## Autenticação
 
 O projeto utiliza **Laravel Sanctum** para autenticação. Certifique-se de enviar o token de autenticação no cabeçalho **Authorization** em cada requisição.
 
-### Contribuição
+## Contribuição
 
 Contribuições são bem-vindas! Por favor, abra uma issue ou envie um pull request para melhorias e correções.
 
-### Licença
+## Licença
 
 Este projeto foi criado para uso pessoal, caso queiram clonar, está liberado.
 
