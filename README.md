@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # CRUD-Project
-crud com laravel e react
 =======
 # CRUD de Usuários com Recuperação de Senha - Laravel & React
 
@@ -50,32 +48,31 @@ Este repositório serve como um exemplo de como criar uma API de autenticação 
 
 1. Clone o repositório:
 
-   bash
+   ```bash
    git clone https://github.com/victorhugoscf/CRUD-Project.git
    
 
 2. Acesse o diretório do Laravel:
 
-   bash
+   ```bash
    cd \laravel_react
    
 
 3. Instale as dependências do Laravel:
 
-   bash
+   ```bash
    composer install
    
 
 4. Crie o arquivo `.env` a partir do `.env.example`:
 
-   bash
+   ```bash
    cp .env.example .env
    
 
 5. Configure as variáveis de ambiente no arquivo `.env`:
 
-
-	dotenv
+```env
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
@@ -93,23 +90,24 @@ Este repositório serve como um exemplo de como criar uma API de autenticação 
    MAIL_ENCRYPTION=tls
    MAIL_FROM_ADDRESS=noreply@crudproject.com
    MAIL_FROM_NAME="${APP_NAME}"
+```
    
 
 6. Gere a chave da aplicação:
 
-   bash
+   ```bash
    php artisan key:generate
    
 
 7. Execute as migrações do banco de dados:
 
-   bash
+   ```bash
    php artisan migrate
    
 
 8. Inicie o servidor de desenvolvimento:
 
-   bash
+   ```bash
    php artisan serve
    
 
@@ -117,23 +115,21 @@ Este repositório serve como um exemplo de como criar uma API de autenticação 
 
 1. Acesse a pasta do front-end:
 
-   bash
+   ```bash
    cd react_laravel_crud
    
 
 2. Instale as dependências do front-end:
 
-   bash
+   ```bash
    npm install
    
 
 3. Para rodar o front-end, execute:
 
-   bash
+   ```bash
    npm start
    
-
-### Como Usar a Recuperação de Senha
 
 #### Enviar Link de Recuperação
 
@@ -150,4 +146,4 @@ Contribuições são bem-vindas! Por favor, abra uma issue ou envie um pull requ
 ### Licença
 
 Este projeto foi criado para uso pessoal, caso queiram clonar, está liberado.
->>>>>>> e26f5ae (first commit)
+
