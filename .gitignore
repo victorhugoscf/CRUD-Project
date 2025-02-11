@@ -1,0 +1,52 @@
+# Node modules (React)
+node_modules/
+
+# Laravel
+/vendor/
+/.env
+/.env.*.local
+/storage/*.key
+/storage/app/*
+/storage/framework/*
+/storage/logs/*
+/public/storage
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Composer
+/composer.lock
+
+# NPM / Yarn
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Laravel specific
+phpunit.xml
+phpunit.xml.dist
+.env.local
+.env.testing
+.env.production
+
+# Laravel Nova (se estiver utilizando)
+nova/
+
+# Build files (React)
+build/
+dist/
+
+# Vite (se estiver utilizando Vite)
+vite.config.js
+vite/
+
+# Jetstream (se estiver utilizando Laravel Jetstream)
+/public/hot
+/public/build
